@@ -85,7 +85,7 @@ input[type=text] {
     background-image: url();
 }
 .desktop-search-bar {
-    width: 600px;
+    width: 700px;
     margin-right: 10px;
 }
 .desktop-logo {
@@ -98,10 +98,14 @@ input[type=text] {
 }
 .member {
     display: flex;
-    position: absolute;
+    position: flex end;
     align-items: center;
     white-space: nowrap;
     padding-left: 10px;
+}
+.member-icons {
+    display: flex;
+    margin-left: auto;
 }
 .become-member-icon {
     font-size: 13px;
