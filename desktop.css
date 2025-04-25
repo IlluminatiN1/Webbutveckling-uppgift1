@@ -349,11 +349,44 @@ input[type=text] {
     font-size: 13px;
 }
 
-.footer {
+.mobile-footer {
     display: none;
+}
+.desktop-footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    padding-bottom: 100px;
+}
+
+.desktop-footer > div {
+    display: flex;
+    flex-direction: column;
+}
+.desktop-footer-flex {
+    max-width: 250px;
+    font-size: 13px;
+}
+.desktop-footer-flex-products {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 50px !important;
+    border-radius: 3px;
+    border: 1px solid black;
+    font-size: 16px;
+    text-align: center;
+    background-color: transparent;
+    cursor: pointer;
+    width: auto; 
 }
 
 
+footer h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
 .search-icon {
     font-variation-settings:
         'FILL' 0,

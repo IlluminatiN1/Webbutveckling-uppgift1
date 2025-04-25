@@ -278,8 +278,11 @@ input[type=text] {
     color: black;
     font-size: 13px;
 }
+.desktop-footer {
+    display: none;
+}
 
-.footer {
+.mobile-footer {
     display: flex;
     align-items: center;
     background: rgb(247, 174, 16);
@@ -291,25 +294,25 @@ input[type=text] {
     height: var(--header-height);
 }
 
-.footer-left {
+.mobile-footer-left {
     padding-left: 4rem;
     flex: 1;
 }
 
-.footer-right {
+.mobile-footer-right {
     flex: 1;
     justify-content: flex-end;
 }
 
-.footer-center-left {
+.mobile-footer-center-left {
     flex: 1;
 }
 
-.footer-center-right {
+.mobile-footer-center-right {
     flex: 1;
 }
 
-.footer-text {
+.mobile-footer-text {
     display: block;
     font-size: 12px;
 }
