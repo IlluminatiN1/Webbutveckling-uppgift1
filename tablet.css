@@ -1,0 +1,381 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    width: 100%;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(239, 239, 239);
+    height: 2rem;
+}
+
+.header-icon {
+
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 200,
+        'GRAD' 0,
+        'opsz' 24;
+    font-size: 0.1rem;
+    margin-right: 0.5rem;
+}
+
+header h4 {
+    font-size: 0.6rem;
+    display: inline;
+    margin-right: 1rem;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+
+}
+
+.link-style,
+.link-style:visited,
+.link-style:active {
+    color: black;
+    text-decoration: none;
+}
+
+.link-style-hover:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.customer-type {
+    display: none;
+}
+
+input[type=text] {
+    width: 100%;
+    height: 50px;
+    border: 0.16px solid rgb(247, 174, 16);
+    border-radius: 5px;
+    outline: none;
+    background-image: url();
+}
+.desktop-search-bar {
+    width: 700px;
+    margin-right: 40px;
+}
+.desktop-logo {
+    display: none;
+}
+
+.member {
+    display: none;
+}
+
+.product-category {
+    display: none;
+}
+
+.month-gaming-deals-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    border-radius: 4px;
+    width: 100%;
+
+    height: 24px;
+    bottom: 24px;
+    margin: 0 auto;
+}
+.month-gaming-deals,
+.month-gaming-deals:visited,
+.month-gaming-deals:active {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+
+.product-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(247, 174, 16);
+    border-radius: 4px;
+    width: 100%;
+
+    height: 24px;
+    bottom: 24px;
+    margin: 0 auto;
+}
+
+.product-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.product-last-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+
+.header-link,
+.header-link:visited,
+.header-link:active {
+    color: black;
+    text-decoration: none;
+}
+.product-pic {
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+.product-pic div {
+    flex: 1 1 1.6px;
+    align-items: center;
+}
+.product-pic img {
+    width: 100%;
+    height: auto;
+}
+.product {
+    position: relative;
+    border: 3.2px solid rgb(243, 238, 238);
+    border-radius: 8px;
+    margin-right: 4.8px;
+    margin-left: 4.8px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    padding-right: 8px;
+    padding-left: 16px;
+    padding-bottom: 14px;
+    max-width: 250px;
+    width: 250px;
+
+
+}
+.product-title-text {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    line-height: 24px;
+    max-height: 48px;
+    text-overflow: ellipsis;
+}
+.product-title-text:hover {
+    text-decoration: underline;
+}
+.product-info-text {
+    align-items: flex-start;
+    color: black;
+    font-size: 13px;
+    text-decoration-line: hover;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden; 
+    -webkit-line-clamp: 2; 
+    line-height: 16px;
+    max-height: 48px;
+    text-overflow: ellipsis;
+
+}
+.product-rating {
+    display: flex;
+    align-items: center;
+}
+
+.material-icons {
+    font-size: 3px;
+    transform: scale(1);
+    color: gold;
+    margin-right: -3px;
+}
+
+.review-text {
+    font-size: 13px;
+    color: black;
+    margin-left: 5px;
+}
+.product-prices {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: -32px;
+    margin-top: -24px;
+
+}
+.product-ordinary-price {
+    font-size: 11px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.product-side-prices {
+    display: flex;
+    flex-direction: column;
+    padding-top: 32px;
+
+}
+.product-now-price {
+    font-size: 29px;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: -0.16px;
+}
+.product-save-price {
+    font-size: 13px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: -6px;
+    background-color: gold;
+    padding-left: 0.16px;
+    margin-left: -6px;
+    padding-top: 0.16px;
+}
+
+.product-flex-price {
+    font-size: 13px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0.16px;
+    padding-bottom: 16px;
+}
+
+.gaming-deal-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+.shelves {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    gap: 8px;
+    padding-bottom: 8px;
+    padding-left: 14px;
+
+}
+.shelves-text {
+    color: black;
+    font-size: 13px;
+}
+.desktop-footer {
+    display: none;
+}
+
+.mobile-footer {
+    display: flex;
+    align-items: center;
+    background: rgb(247, 174, 16);
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: var(--header-height);
+}
+
+.mobile-footer-left {
+    padding-left: 4rem;
+    flex: 1;
+}
+
+.mobile-footer-right {
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.mobile-footer-center-left {
+    flex: 1;
+}
+
+.mobile-footer-center-right {
+    flex: 1;
+}
+
+.mobile-footer-text {
+    display: block;
+    font-size: 12px;
+}
+
+
+.search-icon {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+    transform: rotate(90deg);
+}
+
+.komplett-image {
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+
+
+}
+.star {
+    color: gold;
+    font-size: 24px;
+}
+.circle {
+    color: rgb(17, 159, 17);
+    font-size: 13px !important;
+}
+
+.komplett-image img {
+    display: flex;
+    width: 200px;
+    height: auto;
+    margin-bottom: 0.1rem;
+}
+
+.komplett-rea img {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.komplett-image-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+}
+
+.komplett-image-links img {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    margin: 0 auto;
+    padding-right: 16px;
+    padding-bottom: 16px;
+}
+
+a {
+    text-decoration: none !important;
+}
